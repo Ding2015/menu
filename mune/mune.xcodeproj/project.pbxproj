@@ -14,6 +14,8 @@
 		0A9A72111BAF94C500E18643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A72101BAF94C500E18643 /* Images.xcassets */; };
 		0A9A72141BAF94C500E18643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A72121BAF94C500E18643 /* LaunchScreen.xib */; };
 		0A9A72201BAF94C500E18643 /* muneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A721F1BAF94C500E18643 /* muneTests.m */; };
+		0A9A722C1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */; };
+		0A9A722E1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		0A9A72191BAF94C500E18643 /* muneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = muneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9A721E1BAF94C500E18643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9A721F1BAF94C500E18643 /* muneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = muneTests.m; sourceTree = "<group>"; };
+		0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=2971219104,1992543583&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
+		0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_7331364e5072cc2a290a328301f7396c.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		0A9A72021BAF94C500E18643 /* mune */ = {
 			isa = PBXGroup;
 			children = (
+				0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */,
+				0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */,
 				0A9A72071BAF94C500E18643 /* AppDelegate.h */,
 				0A9A72081BAF94C500E18643 /* AppDelegate.m */,
 				0A9A720A1BAF94C500E18643 /* ViewController.h */,
@@ -201,7 +207,9 @@
 			files = (
 				0A9A720F1BAF94C500E18643 /* Main.storyboard in Resources */,
 				0A9A72141BAF94C500E18643 /* LaunchScreen.xib in Resources */,
+				0A9A722E1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg in Resources */,
 				0A9A72111BAF94C500E18643 /* Images.xcassets in Resources */,
+				0A9A722C1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +424,7 @@
 				0A9A72251BAF94C500E18643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9A72261BAF94C500E18643 /* Build configuration list for PBXNativeTarget "muneTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				0A9A72281BAF94C500E18643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A74CB9BC-0D1F-492D-85E0-96DEFFD56AAB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>mune</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A328D675C185951154F4448340CD7E503AF3FC19</key>
 		<string>https://github.com/Ding2015/menu.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>mune/mune.xcodeproj/project.xcworkspace</string>
+	<string>mune/mune.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A328D675C185951154F4448340CD7E503AF3FC19</key>
