@@ -19,6 +19,10 @@
 		0A9A72201BAF94C500E18643 /* muneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A721F1BAF94C500E18643 /* muneTests.m */; };
 		0A9A722C1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */; };
 		0A9A722E1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */; };
+		0AAAB47F1BB0E7710018287F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB47E1BB0E7710018287F /* RegisterViewController.m */; };
+		0AAAB4851BB0F1880018287F /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB4841BB0F1880018287F /* TabViewController.m */; };
+		0AAAB4881BB0F3A10018287F /* menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB4871BB0F3A10018287F /* menu.m */; };
+		0AAAB48B1BB0F3AC0018287F /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB48A1BB0F3AC0018287F /* list.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		0A9A721F1BAF94C500E18643 /* muneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = muneTests.m; sourceTree = "<group>"; };
 		0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=2971219104,1992543583&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
 		0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_7331364e5072cc2a290a328301f7396c.jpeg; sourceTree = "<group>"; };
+		0AAAB47D1BB0E7710018287F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		0AAAB47E1BB0E7710018287F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		0AAAB4831BB0F1880018287F /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		0AAAB4841BB0F1880018287F /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		0AAAB4861BB0F3A10018287F /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
+		0AAAB4871BB0F3A10018287F /* menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menu.m; sourceTree = "<group>"; };
+		0AAAB4891BB0F3AC0018287F /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		0AAAB48A1BB0F3AC0018287F /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,14 @@
 			children = (
 				0A9A720A1BAF94C500E18643 /* ViewController.h */,
 				0A9A720B1BAF94C500E18643 /* ViewController.m */,
+				0AAAB47D1BB0E7710018287F /* RegisterViewController.h */,
+				0AAAB47E1BB0E7710018287F /* RegisterViewController.m */,
+				0AAAB4831BB0F1880018287F /* TabViewController.h */,
+				0AAAB4841BB0F1880018287F /* TabViewController.m */,
+				0AAAB4861BB0F3A10018287F /* menu.h */,
+				0AAAB4871BB0F3A10018287F /* menu.m */,
+				0AAAB4891BB0F3AC0018287F /* list.h */,
+				0AAAB48A1BB0F3AC0018287F /* list.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -278,9 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A861A131BAFE74C006D52ED /* storageMgr.m in Sources */,
+				0AAAB47F1BB0E7710018287F /* RegisterViewController.m in Sources */,
 				0A9A720C1BAF94C500E18643 /* ViewController.m in Sources */,
 				0A9A72091BAF94C500E18643 /* AppDelegate.m in Sources */,
 				0A861A121BAFE74C006D52ED /* Utilities.m in Sources */,
+				0AAAB48B1BB0F3AC0018287F /* list.m in Sources */,
+				0AAAB4851BB0F1880018287F /* TabViewController.m in Sources */,
+				0AAAB4881BB0F3A10018287F /* menu.m in Sources */,
 				0A9A72061BAF94C500E18643 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
