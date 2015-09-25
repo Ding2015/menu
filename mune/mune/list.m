@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     [self requestData];
     // Do any additional setup after loading the view.
 }
 
@@ -24,14 +25,35 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)requestData {
+    PFQuery *query = [PFQuery queryWithClassName:@"list"];
+    //关联表查询[例如abc三张表关联的方法(@"a2b.b2c")]
+    [query includeKey:@"menu"];
+    //获得保护膜
+    UIActivityIndicatorView *aiv = [Utilities getCoverOnView:self.view];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *returnedObjects, NSError *error) {
+        [aiv stopAnimating];
+        if (!error) {
+            _objectsForShow = returnedObjects;
+            NSLog(@"%@", _objectsForShow);
+            [_BD reloadData];
+        } else {
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
 }
-*/
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _objectsForShow.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+    PFObject *object = [_objectsForShow objectAtIndex:indexPath.row];
+    //关联表activity，拿到User表中Name
+    PFObject *obj = object[@"menu"];
+    cell.textLabel.text = obj[@"Name"];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", object[@"number"]];
+    return cell;
+}
 
 @end

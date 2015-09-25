@@ -5,6 +5,7 @@
 //  Created by XZH on 15/9/22.
 //  Copyright (c) 2015年 就不给你上. All rights reserved.
 //
+#import "TableViewCell.h"
 
 #import "TabViewController.h"
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +35,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
+
 
 @end

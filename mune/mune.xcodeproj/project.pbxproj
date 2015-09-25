@@ -19,10 +19,23 @@
 		0A9A72201BAF94C500E18643 /* muneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A721F1BAF94C500E18643 /* muneTests.m */; };
 		0A9A722C1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */; };
 		0A9A722E1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */; };
+		0AA7E5FA1BB27E1A00DE39F4 /* XGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E5F91BB27E1A00DE39F4 /* XGViewController.m */; };
+		0AA7E6071BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E5FD1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m */; };
+		0AA7E6081BB2808E00DE39F4 /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E5FF1BB2808E00DE39F4 /* ECSlidingAnimationController.m */; };
+		0AA7E6091BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6021BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m */; };
+		0AA7E60A1BB2808E00DE39F4 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6041BB2808E00DE39F4 /* ECSlidingSegue.m */; };
+		0AA7E60B1BB2808E00DE39F4 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6061BB2808E00DE39F4 /* ECSlidingViewController.m */; };
+		0AA7E60E1BB2812F00DE39F4 /* left.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E60D1BB2812F00DE39F4 /* left.m */; };
+		0AA7E6111BB2839900DE39F4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6101BB2839900DE39F4 /* TableViewCell.m */; };
 		0AAAB47F1BB0E7710018287F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB47E1BB0E7710018287F /* RegisterViewController.m */; };
 		0AAAB4851BB0F1880018287F /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB4841BB0F1880018287F /* TabViewController.m */; };
 		0AAAB4881BB0F3A10018287F /* menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB4871BB0F3A10018287F /* menu.m */; };
 		0AAAB48B1BB0F3AC0018287F /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB48A1BB0F3AC0018287F /* list.m */; };
+		0AAAB48E1BB122F90018287F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAB48C1BB122F90018287F /* Bolts.framework */; };
+		0AAAB48F1BB122F90018287F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAB48D1BB122F90018287F /* Parse.framework */; };
+		0AAAB4911BB124720018287F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAB4901BB124720018287F /* libsqlite3.dylib */; };
+		0AAAB4931BB124810018287F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAB4921BB124810018287F /* SystemConfiguration.framework */; };
+		0AAAB4951BB1248F0018287F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAB4941BB1248F0018287F /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +71,23 @@
 		0A9A721F1BAF94C500E18643 /* muneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = muneTests.m; sourceTree = "<group>"; };
 		0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=2971219104,1992543583&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
 		0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_7331364e5072cc2a290a328301f7396c.jpeg; sourceTree = "<group>"; };
+		0AA7E5F81BB27E1A00DE39F4 /* XGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGViewController.h; sourceTree = "<group>"; };
+		0AA7E5F91BB27E1A00DE39F4 /* XGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGViewController.m; sourceTree = "<group>"; };
+		0AA7E5FC1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECPercentDrivenInteractiveTransition.h; path = ../../../gym/gym/ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		0AA7E5FD1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECPercentDrivenInteractiveTransition.m; path = ../../../gym/gym/ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		0AA7E5FE1BB2808E00DE39F4 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingAnimationController.h; path = ../../../gym/gym/ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		0AA7E5FF1BB2808E00DE39F4 /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingAnimationController.m; path = ../../../gym/gym/ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		0AA7E6001BB2808E00DE39F4 /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingConstants.h; path = ../../../gym/gym/ECSlidingConstants.h; sourceTree = "<group>"; };
+		0AA7E6011BB2808E00DE39F4 /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingInteractiveTransition.h; path = ../../../gym/gym/ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		0AA7E6021BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingInteractiveTransition.m; path = ../../../gym/gym/ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		0AA7E6031BB2808E00DE39F4 /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingSegue.h; path = ../../../gym/gym/ECSlidingSegue.h; sourceTree = "<group>"; };
+		0AA7E6041BB2808E00DE39F4 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingSegue.m; path = ../../../gym/gym/ECSlidingSegue.m; sourceTree = "<group>"; };
+		0AA7E6051BB2808E00DE39F4 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingViewController.h; path = ../../../gym/gym/ECSlidingViewController.h; sourceTree = "<group>"; };
+		0AA7E6061BB2808E00DE39F4 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = ../../../gym/gym/ECSlidingViewController.m; sourceTree = "<group>"; };
+		0AA7E60C1BB2812F00DE39F4 /* left.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = left.h; sourceTree = "<group>"; };
+		0AA7E60D1BB2812F00DE39F4 /* left.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = left.m; sourceTree = "<group>"; };
+		0AA7E60F1BB2839900DE39F4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		0AA7E6101BB2839900DE39F4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		0AAAB47D1BB0E7710018287F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		0AAAB47E1BB0E7710018287F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		0AAAB4831BB0F1880018287F /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
@@ -66,6 +96,11 @@
 		0AAAB4871BB0F3A10018287F /* menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menu.m; sourceTree = "<group>"; };
 		0AAAB4891BB0F3AC0018287F /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		0AAAB48A1BB0F3AC0018287F /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
+		0AAAB48C1BB122F90018287F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0AAAB48D1BB122F90018287F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0AAAB4901BB124720018287F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0AAAB4921BB124810018287F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AAAB4941BB1248F0018287F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +108,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAAB4951BB1248F0018287F /* AudioToolbox.framework in Frameworks */,
+				0AAAB4931BB124810018287F /* SystemConfiguration.framework in Frameworks */,
+				0AAAB4911BB124720018287F /* libsqlite3.dylib in Frameworks */,
+				0AAAB48F1BB122F90018287F /* Parse.framework in Frameworks */,
+				0AAAB48E1BB122F90018287F /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +150,12 @@
 				0AAAB4871BB0F3A10018287F /* menu.m */,
 				0AAAB4891BB0F3AC0018287F /* list.h */,
 				0AAAB48A1BB0F3AC0018287F /* list.m */,
+				0AA7E5F81BB27E1A00DE39F4 /* XGViewController.h */,
+				0AA7E5F91BB27E1A00DE39F4 /* XGViewController.m */,
+				0AA7E60C1BB2812F00DE39F4 /* left.h */,
+				0AA7E60D1BB2812F00DE39F4 /* left.m */,
+				0AA7E60F1BB2839900DE39F4 /* TableViewCell.h */,
+				0AA7E6101BB2839900DE39F4 /* TableViewCell.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -136,6 +182,11 @@
 		0A9A71F71BAF94C500E18643 = {
 			isa = PBXGroup;
 			children = (
+				0AAAB4941BB1248F0018287F /* AudioToolbox.framework */,
+				0AAAB4921BB124810018287F /* SystemConfiguration.framework */,
+				0AAAB4901BB124720018287F /* libsqlite3.dylib */,
+				0AAAB48C1BB122F90018287F /* Bolts.framework */,
+				0AAAB48D1BB122F90018287F /* Parse.framework */,
 				0A9A72021BAF94C500E18643 /* mune */,
 				0A9A721C1BAF94C500E18643 /* muneTests */,
 				0A9A72011BAF94C500E18643 /* Products */,
@@ -154,6 +205,7 @@
 		0A9A72021BAF94C500E18643 /* mune */ = {
 			isa = PBXGroup;
 			children = (
+				0AA7E5FB1BB27F9700DE39F4 /* 3rd */,
 				0A861A0D1BAFE6DF006D52ED /* uility */,
 				0A861A0C1BAFE6D3006D52ED /* constans */,
 				0A861A0B1BAFE6C6006D52ED /* controller */,
@@ -192,6 +244,24 @@
 				0A9A721E1BAF94C500E18643 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AA7E5FB1BB27F9700DE39F4 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7E5FC1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.h */,
+				0AA7E5FD1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m */,
+				0AA7E5FE1BB2808E00DE39F4 /* ECSlidingAnimationController.h */,
+				0AA7E5FF1BB2808E00DE39F4 /* ECSlidingAnimationController.m */,
+				0AA7E6001BB2808E00DE39F4 /* ECSlidingConstants.h */,
+				0AA7E6011BB2808E00DE39F4 /* ECSlidingInteractiveTransition.h */,
+				0AA7E6021BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m */,
+				0AA7E6031BB2808E00DE39F4 /* ECSlidingSegue.h */,
+				0AA7E6041BB2808E00DE39F4 /* ECSlidingSegue.m */,
+				0AA7E6051BB2808E00DE39F4 /* ECSlidingViewController.h */,
+				0AA7E6061BB2808E00DE39F4 /* ECSlidingViewController.m */,
+			);
+			name = 3rd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +367,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA7E6091BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m in Sources */,
 				0A861A131BAFE74C006D52ED /* storageMgr.m in Sources */,
 				0AAAB47F1BB0E7710018287F /* RegisterViewController.m in Sources */,
 				0A9A720C1BAF94C500E18643 /* ViewController.m in Sources */,
+				0AA7E6071BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				0AA7E5FA1BB27E1A00DE39F4 /* XGViewController.m in Sources */,
 				0A9A72091BAF94C500E18643 /* AppDelegate.m in Sources */,
 				0A861A121BAFE74C006D52ED /* Utilities.m in Sources */,
+				0AA7E6081BB2808E00DE39F4 /* ECSlidingAnimationController.m in Sources */,
+				0AA7E6111BB2839900DE39F4 /* TableViewCell.m in Sources */,
 				0AAAB48B1BB0F3AC0018287F /* list.m in Sources */,
+				0AA7E60A1BB2808E00DE39F4 /* ECSlidingSegue.m in Sources */,
+				0AA7E60B1BB2808E00DE39F4 /* ECSlidingViewController.m in Sources */,
+				0AA7E60E1BB2812F00DE39F4 /* left.m in Sources */,
 				0AAAB4851BB0F1880018287F /* TabViewController.m in Sources */,
 				0AAAB4881BB0F3A10018287F /* menu.m in Sources */,
 				0A9A72061BAF94C500E18643 /* main.m in Sources */,
@@ -431,6 +509,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mune/PrefixHeader.pch;
 				INFOPLIST_FILE = mune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +525,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mune/PrefixHeader.pch;
 				INFOPLIST_FILE = mune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

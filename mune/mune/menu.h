@@ -9,5 +9,12 @@
 #import "ViewController.h"
 
 @interface menu : ViewController
+@property (strong, nonatomic) PFObject *menu;
+@property (strong, nonatomic) NSMutableArray *objectsForShow;
+
+
+@property (weak, nonatomic) IBOutlet UITableView *tableview;
+
+
 
 @end

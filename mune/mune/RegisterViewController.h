@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterViewController : UIViewController
+@interface RegisterViewController : UIViewController<UIViewControllerAnimatedTransitioning>
+@property (weak, nonatomic) IBOutlet UITextField *UserName;
+@property (weak, nonatomic) IBOutlet UITextField *Email;
+@property (weak, nonatomic) IBOutlet UITextField *PassWord;
+@property (weak, nonatomic) IBOutlet UITextField *ConfirmPw;
 
 @end

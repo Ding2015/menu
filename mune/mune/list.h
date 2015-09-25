@@ -9,5 +9,7 @@
 #import "ViewController.h"
 
 @interface list : ViewController
+@property (weak, nonatomic) IBOutlet UITableView *BD;
+@property(strong,nonatomic)NSArray *objectsForShow;
 
 @end
