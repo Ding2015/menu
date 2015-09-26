@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A645F501BB538C900BE4CD6 /* listCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A645F4F1BB538C900BE4CD6 /* listCell.m */; };
 		0A861A121BAFE74C006D52ED /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A861A0F1BAFE74C006D52ED /* Utilities.m */; };
 		0A861A131BAFE74C006D52ED /* storageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A861A111BAFE74C006D52ED /* storageMgr.m */; };
 		0A861A171BAFF8AE006D52ED /* 20090622172909-1737771123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A861A161BAFF8AE006D52ED /* 20090622172909-1737771123.jpg */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A645F4E1BB538C900BE4CD6 /* listCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listCell.h; sourceTree = "<group>"; };
+		0A645F4F1BB538C900BE4CD6 /* listCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listCell.m; sourceTree = "<group>"; };
 		0A861A0E1BAFE74C006D52ED /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		0A861A0F1BAFE74C006D52ED /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		0A861A101BAFE74C006D52ED /* storageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storageMgr.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				0AA7E60D1BB2812F00DE39F4 /* left.m */,
 				0AA7E60F1BB2839900DE39F4 /* TableViewCell.h */,
 				0AA7E6101BB2839900DE39F4 /* TableViewCell.m */,
+				0A645F4E1BB538C900BE4CD6 /* listCell.h */,
+				0A645F4F1BB538C900BE4CD6 /* listCell.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -374,6 +379,7 @@
 				0AA7E6071BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				0AA7E5FA1BB27E1A00DE39F4 /* XGViewController.m in Sources */,
 				0A9A72091BAF94C500E18643 /* AppDelegate.m in Sources */,
+				0A645F501BB538C900BE4CD6 /* listCell.m in Sources */,
 				0A861A121BAFE74C006D52ED /* Utilities.m in Sources */,
 				0AA7E6081BB2808E00DE39F4 /* ECSlidingAnimationController.m in Sources */,
 				0AA7E6111BB2839900DE39F4 /* TableViewCell.m in Sources */,

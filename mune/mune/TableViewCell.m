@@ -10,6 +10,8 @@
 #import "TableViewCell.h"
 
 @implementation TableViewCell
+- (IBAction)XD:(UIButton *)sender forEvent:(UIEvent *)event {
+}
 
 - (void)awakeFromNib {
     // Initialization code
