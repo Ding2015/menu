@@ -5,13 +5,12 @@
 //  Created by XZH on 15/9/22.
 //  Copyright (c) 2015年 就不给你上. All rights reserved.
 //
-#import "TableViewCell.h"
+#import "left.h"
 #import "menu.h"
 #import "Utilities.h"
 
 @interface menu ()
 
-- (IBAction)DD:(UIButton *)sender forEvent:(UIEvent *)event;
 @end
 
 @implementation menu
@@ -19,7 +18,41 @@
 - (void)viewDidLoad {
   //获取数据
     [self requestData];
-    // Do any additional setup after loading the view.
+  
+       _tableview.tableFooterView = [[UIView alloc] init];
+    UIImageView *imageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"123.png"]];
+    imageView.image=[UIImage imageNamed:@"123.png"];
+    [self.tableview setBackgroundView:imageView];
+ 
+}
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    //cell的背景图
+    cell.backgroundColor = [UIColor clearColor];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"enablePanGes" object:self];
+}
+//首页进入下一个页面是侧滑手势关闭
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"disablePanGes" object:self];
+}
+//自动监听StoryboardSegue连这根线
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"menu"]) {
+        //拿到数据对象获得当前tableView选中行的数据
+        PFObject *object = [_objectsForShow objectAtIndex:[_tableview indexPathForSelectedRow].row];
+        //获得实例
+        menu *itemVC = segue.destinationViewController;
+        //Booking设为传过去的数据
+        itemVC.menu= object;
+        //切换隐藏按钮
+        itemVC.hidesBottomBarWhenPushed = YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,7 +87,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TabViewCell" forIndexPath:indexPath];
+    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableViewCell" forIndexPath:indexPath];
     if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
         [cell setSeparatorInset:UIEdgeInsetsZero];
     }
@@ -77,13 +110,15 @@
             });
         }
     }];
-    
+    cell.delegate = self;
     cell.indexPath = indexPath;
 //    string直接显示
     cell.name.text = object[@"Name"];
-//    数字类型字符串
     cell.price.text = [NSString stringWithFormat:@"价格：%@", object[@"price"]];
     cell.number.text = [NSString stringWithFormat:@"数量：%@", object[@"number"]];
+//    数字类型字符串
+    
+    
     
     return cell;
 }
@@ -98,6 +133,31 @@
     return 1;
 }
 
-- (IBAction)DD:(UIButton *)sender forEvent:(UIEvent *)event {
+- (void)applyPressed:(NSIndexPath *)indexPath {
+    PFObject *shopping = [PFObject objectWithClassName:@"shopping"];
+    
+    PFUser *currentUser = [PFUser currentUser];
+    //owner设为currentUser
+    shopping[@"owner"] = currentUser;
+    PFObject *cai = [_objectsForShow objectAtIndex:indexPath.row];
+    shopping[@"cai"] = cai;
+    
+    //设置菊花
+    UIActivityIndicatorView *aiv = [Utilities getCoverOnView:self.view];
+    
+    //保存
+    [shopping saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        [aiv stopAnimating];
+        if (succeeded) {//成功
+             [Utilities popUpAlertViewWithMsg:@"加入成功" andTitle:nil];
+           
+        } else {
+            [Utilities popUpAlertViewWithMsg:nil andTitle:nil];
+        }
+    }];
 }
+
+
+
+
 @end

@@ -23,8 +23,6 @@
 @protocol ActivityTableViewCellDelegate <NSObject>
 
 @required
-- (void)cellLongPressAtIndexPath:(NSIndexPath *)indexPath;
-- (void)photoTapAtIndexPath:(NSIndexPath *)indexPath;
 - (void)applyPressed:(NSIndexPath *)indexPath;
 
 @end

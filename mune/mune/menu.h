@@ -7,9 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "TableViewCell.h"
 
-@interface menu : ViewController
+@interface menu : ViewController <ActivityTableViewCellDelegate>
 @property (strong, nonatomic) PFObject *menu;
+@property (strong, nonatomic) PFObject *shopping;
+
+
 @property (strong, nonatomic) NSMutableArray *objectsForShow;
 
 

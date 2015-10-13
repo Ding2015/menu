@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A645F501BB538C900BE4CD6 /* listCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A645F4F1BB538C900BE4CD6 /* listCell.m */; };
+		0A09A0D41BB8EAEA008FA4C1 /* left.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0D31BB8EAEA008FA4C1 /* left.m */; };
+		0A09A0D61BB90BBF008FA4C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A09A0D51BB90BBF008FA4C1 /* Images.xcassets */; };
+		0A09A1001BB93454008FA4C1 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0F31BB93454008FA4C1 /* UIViewController+ECSlidingViewController.m */; };
+		0A09A1011BB93454008FA4C1 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0F51BB93454008FA4C1 /* ECSlidingViewController.m */; };
+		0A09A1021BB93454008FA4C1 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0F71BB93454008FA4C1 /* ECSlidingSegue.m */; };
+		0A09A1031BB93454008FA4C1 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0F91BB93454008FA4C1 /* ECSlidingInteractiveTransition.m */; };
+		0A09A1041BB93454008FA4C1 /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0FC1BB93454008FA4C1 /* ECSlidingAnimationController.m */; };
+		0A09A1051BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09A0FE1BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.m */; };
+		0A0B72451BC8AAD4008B5F8A /* jiezhang.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B72441BC8AAD4008B5F8A /* jiezhang.m */; };
+		0A7376DF1BC75A2A00D07EF7 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7376DE1BC75A2A00D07EF7 /* 123.png */; };
+		0A7376E11BC7908A00D07EF7 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7376E01BC7908A00D07EF7 /* 111.png */; };
 		0A861A121BAFE74C006D52ED /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A861A0F1BAFE74C006D52ED /* Utilities.m */; };
 		0A861A131BAFE74C006D52ED /* storageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A861A111BAFE74C006D52ED /* storageMgr.m */; };
 		0A861A171BAFF8AE006D52ED /* 20090622172909-1737771123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A861A161BAFF8AE006D52ED /* 20090622172909-1737771123.jpg */; };
@@ -15,18 +25,11 @@
 		0A9A72091BAF94C500E18643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A72081BAF94C500E18643 /* AppDelegate.m */; };
 		0A9A720C1BAF94C500E18643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A720B1BAF94C500E18643 /* ViewController.m */; };
 		0A9A720F1BAF94C500E18643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A720D1BAF94C500E18643 /* Main.storyboard */; };
-		0A9A72111BAF94C500E18643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A72101BAF94C500E18643 /* Images.xcassets */; };
 		0A9A72141BAF94C500E18643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A72121BAF94C500E18643 /* LaunchScreen.xib */; };
 		0A9A72201BAF94C500E18643 /* muneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A721F1BAF94C500E18643 /* muneTests.m */; };
 		0A9A722C1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722B1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg */; };
 		0A9A722E1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */; };
 		0AA7E5FA1BB27E1A00DE39F4 /* XGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E5F91BB27E1A00DE39F4 /* XGViewController.m */; };
-		0AA7E6071BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E5FD1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m */; };
-		0AA7E6081BB2808E00DE39F4 /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E5FF1BB2808E00DE39F4 /* ECSlidingAnimationController.m */; };
-		0AA7E6091BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6021BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m */; };
-		0AA7E60A1BB2808E00DE39F4 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6041BB2808E00DE39F4 /* ECSlidingSegue.m */; };
-		0AA7E60B1BB2808E00DE39F4 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6061BB2808E00DE39F4 /* ECSlidingViewController.m */; };
-		0AA7E60E1BB2812F00DE39F4 /* left.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E60D1BB2812F00DE39F4 /* left.m */; };
 		0AA7E6111BB2839900DE39F4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7E6101BB2839900DE39F4 /* TableViewCell.m */; };
 		0AAAB47F1BB0E7710018287F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB47E1BB0E7710018287F /* RegisterViewController.m */; };
 		0AAAB4851BB0F1880018287F /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAB4841BB0F1880018287F /* TabViewController.m */; };
@@ -50,8 +53,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A645F4E1BB538C900BE4CD6 /* listCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listCell.h; sourceTree = "<group>"; };
-		0A645F4F1BB538C900BE4CD6 /* listCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listCell.m; sourceTree = "<group>"; };
+		0A09A0D21BB8EAEA008FA4C1 /* left.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = left.h; sourceTree = "<group>"; };
+		0A09A0D31BB8EAEA008FA4C1 /* left.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = left.m; sourceTree = "<group>"; };
+		0A09A0D51BB90BBF008FA4C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A09A0F31BB93454008FA4C1 /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ECSlidingViewController.m"; path = "../../3rd/UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		0A09A0F41BB93454008FA4C1 /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ECSlidingViewController.h"; path = "../../3rd/UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		0A09A0F51BB93454008FA4C1 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = ../../3rd/ECSlidingViewController.m; sourceTree = "<group>"; };
+		0A09A0F61BB93454008FA4C1 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingViewController.h; path = ../../3rd/ECSlidingViewController.h; sourceTree = "<group>"; };
+		0A09A0F71BB93454008FA4C1 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingSegue.m; path = ../../3rd/ECSlidingSegue.m; sourceTree = "<group>"; };
+		0A09A0F81BB93454008FA4C1 /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingSegue.h; path = ../../3rd/ECSlidingSegue.h; sourceTree = "<group>"; };
+		0A09A0F91BB93454008FA4C1 /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingInteractiveTransition.m; path = ../../3rd/ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		0A09A0FA1BB93454008FA4C1 /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingInteractiveTransition.h; path = ../../3rd/ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		0A09A0FB1BB93454008FA4C1 /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingConstants.h; path = ../../3rd/ECSlidingConstants.h; sourceTree = "<group>"; };
+		0A09A0FC1BB93454008FA4C1 /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingAnimationController.m; path = ../../3rd/ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		0A09A0FD1BB93454008FA4C1 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingAnimationController.h; path = ../../3rd/ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		0A09A0FE1BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECPercentDrivenInteractiveTransition.m; path = ../../3rd/ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		0A09A0FF1BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECPercentDrivenInteractiveTransition.h; path = ../../3rd/ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		0A0B72431BC8AAD4008B5F8A /* jiezhang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiezhang.h; sourceTree = "<group>"; };
+		0A0B72441BC8AAD4008B5F8A /* jiezhang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jiezhang.m; sourceTree = "<group>"; };
+		0A7376DE1BC75A2A00D07EF7 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		0A7376E01BC7908A00D07EF7 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 		0A861A0E1BAFE74C006D52ED /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		0A861A0F1BAFE74C006D52ED /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		0A861A101BAFE74C006D52ED /* storageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storageMgr.h; sourceTree = "<group>"; };
@@ -67,7 +88,6 @@
 		0A9A720A1BAF94C500E18643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0A9A720B1BAF94C500E18643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A9A720E1BAF94C500E18643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A9A72101BAF94C500E18643 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0A9A72131BAF94C500E18643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0A9A72191BAF94C500E18643 /* muneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = muneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9A721E1BAF94C500E18643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,19 +96,6 @@
 		0A9A722D1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_7331364e5072cc2a290a328301f7396c.jpeg; sourceTree = "<group>"; };
 		0AA7E5F81BB27E1A00DE39F4 /* XGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGViewController.h; sourceTree = "<group>"; };
 		0AA7E5F91BB27E1A00DE39F4 /* XGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGViewController.m; sourceTree = "<group>"; };
-		0AA7E5FC1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECPercentDrivenInteractiveTransition.h; path = ../../../gym/gym/ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
-		0AA7E5FD1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECPercentDrivenInteractiveTransition.m; path = ../../../gym/gym/ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
-		0AA7E5FE1BB2808E00DE39F4 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingAnimationController.h; path = ../../../gym/gym/ECSlidingAnimationController.h; sourceTree = "<group>"; };
-		0AA7E5FF1BB2808E00DE39F4 /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingAnimationController.m; path = ../../../gym/gym/ECSlidingAnimationController.m; sourceTree = "<group>"; };
-		0AA7E6001BB2808E00DE39F4 /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingConstants.h; path = ../../../gym/gym/ECSlidingConstants.h; sourceTree = "<group>"; };
-		0AA7E6011BB2808E00DE39F4 /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingInteractiveTransition.h; path = ../../../gym/gym/ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
-		0AA7E6021BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingInteractiveTransition.m; path = ../../../gym/gym/ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
-		0AA7E6031BB2808E00DE39F4 /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingSegue.h; path = ../../../gym/gym/ECSlidingSegue.h; sourceTree = "<group>"; };
-		0AA7E6041BB2808E00DE39F4 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingSegue.m; path = ../../../gym/gym/ECSlidingSegue.m; sourceTree = "<group>"; };
-		0AA7E6051BB2808E00DE39F4 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingViewController.h; path = ../../../gym/gym/ECSlidingViewController.h; sourceTree = "<group>"; };
-		0AA7E6061BB2808E00DE39F4 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = ../../../gym/gym/ECSlidingViewController.m; sourceTree = "<group>"; };
-		0AA7E60C1BB2812F00DE39F4 /* left.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = left.h; sourceTree = "<group>"; };
-		0AA7E60D1BB2812F00DE39F4 /* left.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = left.m; sourceTree = "<group>"; };
 		0AA7E60F1BB2839900DE39F4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		0AA7E6101BB2839900DE39F4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		0AAAB47D1BB0E7710018287F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -129,11 +136,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A09A0DB1BB91017008FA4C1 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				0A09A0F21BB93413008FA4C1 /* ECSlidingViewController */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		0A09A0F21BB93413008FA4C1 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A09A0F31BB93454008FA4C1 /* UIViewController+ECSlidingViewController.m */,
+				0A09A0F41BB93454008FA4C1 /* UIViewController+ECSlidingViewController.h */,
+				0A09A0F51BB93454008FA4C1 /* ECSlidingViewController.m */,
+				0A09A0F61BB93454008FA4C1 /* ECSlidingViewController.h */,
+				0A09A0F71BB93454008FA4C1 /* ECSlidingSegue.m */,
+				0A09A0F81BB93454008FA4C1 /* ECSlidingSegue.h */,
+				0A09A0F91BB93454008FA4C1 /* ECSlidingInteractiveTransition.m */,
+				0A09A0FA1BB93454008FA4C1 /* ECSlidingInteractiveTransition.h */,
+				0A09A0FB1BB93454008FA4C1 /* ECSlidingConstants.h */,
+				0A09A0FC1BB93454008FA4C1 /* ECSlidingAnimationController.m */,
+				0A09A0FD1BB93454008FA4C1 /* ECSlidingAnimationController.h */,
+				0A09A0FE1BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.m */,
+				0A09A0FF1BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.h */,
+			);
+			name = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
 		0A861A0A1BAFE6C0006D52ED /* view */ = {
 			isa = PBXGroup;
 			children = (
-				0A9A720D1BAF94C500E18643 /* Main.storyboard */,
-				0A9A72101BAF94C500E18643 /* Images.xcassets */,
+				0A7376E01BC7908A00D07EF7 /* 111.png */,
+				0A7376DE1BC75A2A00D07EF7 /* 123.png */,
+				0A09A0D51BB90BBF008FA4C1 /* Images.xcassets */,
 				0A9A72121BAF94C500E18643 /* LaunchScreen.xib */,
 				0A861A161BAFF8AE006D52ED /* 20090622172909-1737771123.jpg */,
 			);
@@ -155,12 +191,13 @@
 				0AAAB48A1BB0F3AC0018287F /* list.m */,
 				0AA7E5F81BB27E1A00DE39F4 /* XGViewController.h */,
 				0AA7E5F91BB27E1A00DE39F4 /* XGViewController.m */,
-				0AA7E60C1BB2812F00DE39F4 /* left.h */,
-				0AA7E60D1BB2812F00DE39F4 /* left.m */,
 				0AA7E60F1BB2839900DE39F4 /* TableViewCell.h */,
 				0AA7E6101BB2839900DE39F4 /* TableViewCell.m */,
-				0A645F4E1BB538C900BE4CD6 /* listCell.h */,
-				0A645F4F1BB538C900BE4CD6 /* listCell.m */,
+				0A09A0D21BB8EAEA008FA4C1 /* left.h */,
+				0A09A0D31BB8EAEA008FA4C1 /* left.m */,
+				0A9A720D1BAF94C500E18643 /* Main.storyboard */,
+				0A0B72431BC8AAD4008B5F8A /* jiezhang.h */,
+				0A0B72441BC8AAD4008B5F8A /* jiezhang.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -210,7 +247,7 @@
 		0A9A72021BAF94C500E18643 /* mune */ = {
 			isa = PBXGroup;
 			children = (
-				0AA7E5FB1BB27F9700DE39F4 /* 3rd */,
+				0A09A0DB1BB91017008FA4C1 /* 3rd */,
 				0A861A0D1BAFE6DF006D52ED /* uility */,
 				0A861A0C1BAFE6D3006D52ED /* constans */,
 				0A861A0B1BAFE6C6006D52ED /* controller */,
@@ -249,24 +286,6 @@
 				0A9A721E1BAF94C500E18643 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0AA7E5FB1BB27F9700DE39F4 /* 3rd */ = {
-			isa = PBXGroup;
-			children = (
-				0AA7E5FC1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.h */,
-				0AA7E5FD1BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m */,
-				0AA7E5FE1BB2808E00DE39F4 /* ECSlidingAnimationController.h */,
-				0AA7E5FF1BB2808E00DE39F4 /* ECSlidingAnimationController.m */,
-				0AA7E6001BB2808E00DE39F4 /* ECSlidingConstants.h */,
-				0AA7E6011BB2808E00DE39F4 /* ECSlidingInteractiveTransition.h */,
-				0AA7E6021BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m */,
-				0AA7E6031BB2808E00DE39F4 /* ECSlidingSegue.h */,
-				0AA7E6041BB2808E00DE39F4 /* ECSlidingSegue.m */,
-				0AA7E6051BB2808E00DE39F4 /* ECSlidingViewController.h */,
-				0AA7E6061BB2808E00DE39F4 /* ECSlidingViewController.m */,
-			);
-			name = 3rd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,10 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9A720F1BAF94C500E18643 /* Main.storyboard in Resources */,
+				0A7376DF1BC75A2A00D07EF7 /* 123.png in Resources */,
 				0A861A171BAFF8AE006D52ED /* 20090622172909-1737771123.jpg in Resources */,
 				0A9A72141BAF94C500E18643 /* LaunchScreen.xib in Resources */,
+				0A09A0D61BB90BBF008FA4C1 /* Images.xcassets in Resources */,
+				0A7376E11BC7908A00D07EF7 /* 111.png in Resources */,
 				0A9A722E1BAFAE0100E18643 /* 2_7331364e5072cc2a290a328301f7396c.jpeg in Resources */,
-				0A9A72111BAF94C500E18643 /* Images.xcassets in Resources */,
 				0A9A722C1BAFA65200E18643 /* u=2971219104,1992543583&fm=21&gp=0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,21 +393,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA7E6091BB2808E00DE39F4 /* ECSlidingInteractiveTransition.m in Sources */,
+				0A09A0D41BB8EAEA008FA4C1 /* left.m in Sources */,
 				0A861A131BAFE74C006D52ED /* storageMgr.m in Sources */,
 				0AAAB47F1BB0E7710018287F /* RegisterViewController.m in Sources */,
+				0A0B72451BC8AAD4008B5F8A /* jiezhang.m in Sources */,
 				0A9A720C1BAF94C500E18643 /* ViewController.m in Sources */,
-				0AA7E6071BB2808E00DE39F4 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				0AA7E5FA1BB27E1A00DE39F4 /* XGViewController.m in Sources */,
+				0A09A1021BB93454008FA4C1 /* ECSlidingSegue.m in Sources */,
 				0A9A72091BAF94C500E18643 /* AppDelegate.m in Sources */,
-				0A645F501BB538C900BE4CD6 /* listCell.m in Sources */,
+				0A09A1001BB93454008FA4C1 /* UIViewController+ECSlidingViewController.m in Sources */,
 				0A861A121BAFE74C006D52ED /* Utilities.m in Sources */,
-				0AA7E6081BB2808E00DE39F4 /* ECSlidingAnimationController.m in Sources */,
 				0AA7E6111BB2839900DE39F4 /* TableViewCell.m in Sources */,
+				0A09A1011BB93454008FA4C1 /* ECSlidingViewController.m in Sources */,
+				0A09A1051BB93454008FA4C1 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				0AAAB48B1BB0F3AC0018287F /* list.m in Sources */,
-				0AA7E60A1BB2808E00DE39F4 /* ECSlidingSegue.m in Sources */,
-				0AA7E60B1BB2808E00DE39F4 /* ECSlidingViewController.m in Sources */,
-				0AA7E60E1BB2812F00DE39F4 /* left.m in Sources */,
+				0A09A1041BB93454008FA4C1 /* ECSlidingAnimationController.m in Sources */,
+				0A09A1031BB93454008FA4C1 /* ECSlidingInteractiveTransition.m in Sources */,
 				0AAAB4851BB0F1880018287F /* TabViewController.m in Sources */,
 				0AAAB4881BB0F3A10018287F /* menu.m in Sources */,
 				0A9A72061BAF94C500E18643 /* main.m in Sources */,

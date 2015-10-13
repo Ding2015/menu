@@ -10,7 +10,12 @@
 #import "TableViewCell.h"
 
 @implementation TableViewCell
-- (IBAction)XD:(UIButton *)sender forEvent:(UIEvent *)event {
+
+
+- (IBAction)add:(UIButton *)sender forEvent:(UIEvent *)event {
+    if (_delegate && [_delegate respondsToSelector:@selector(applyPressed:)]) {
+        [_delegate applyPressed:_indexPath];
+    }
 }
 
 - (void)awakeFromNib {
@@ -25,28 +30,6 @@
 
 -(void)layoutSubviews {
     [super layoutSubviews];
-   
-    UILongPressGestureRecognizer *cellLongPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(cellLongPress:)];
-    [self addGestureRecognizer:cellLongPress];
-    
-    UITapGestureRecognizer *photoTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(photoTap:)];
-    [self.photo addGestureRecognizer:photoTap];
-}
-
-- (void)cellLongPress:(UILongPressGestureRecognizer *)longPress {
-    if (longPress.state == UIGestureRecognizerStateBegan) {
-        if (_delegate && _indexPath && [_delegate respondsToSelector:@selector(cellLongPressAtIndexPath:)]) {
-            [_delegate cellLongPressAtIndexPath:_indexPath];
-        }
-    }
-}
-
-- (void)photoTap:(UITapGestureRecognizer *)tap {
-    if (tap.state == UIGestureRecognizerStateRecognized) {
-        if (_delegate && self.indexPath && [_delegate respondsToSelector:@selector(photoTapAtIndexPath:)]) {
-            [_delegate photoTapAtIndexPath:_indexPath];
-        }
-    }
 }
 
 @end

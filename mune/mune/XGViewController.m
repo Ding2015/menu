@@ -5,7 +5,7 @@
 //  Created by XZH on 15/9/23.
 //  Copyright (c) 2015年 就不给你上. All rights reserved.
 //
-
+#import "RegisterViewController.h"
 #import "XGViewController.h"
 
 @interface XGViewController ()
@@ -80,8 +80,6 @@
                         }
                     }];
                     
-                    
-                    //[self.navigationController popViewControllerAnimated:YES];
                 } else {
                     [Utilities popUpAlertViewWithMsg:nil andTitle:nil];
                 }
